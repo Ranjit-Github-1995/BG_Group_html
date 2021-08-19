@@ -1,0 +1,978 @@
+/* Responsive css */
+
+
+@media (max-width: 1599px){
+
+    .banner .banner_cap h1{
+        width: 80%;
+    }
+    .down .download{
+        margin-left: 12%;
+    }
+    .kolkata p{
+        padding: 5px 0 5px 90px;
+    }
+    .con a.google_map{
+        width: 45%;
+    }
+    .con ul li span span.left_con{
+        width: 130px;
+    }
+    .con ul li span span.right_con{
+        width: 160px;
+    }
+    .rare .rere_content{
+        width: 75%;
+    }
+    .green .green_content{
+        padding-top: 85px;
+    }
+
+}
+
+@media (max-width: 1399px){
+
+    .banner .banner_cap h1{
+        width: 85%;
+    }
+    .down .download a {
+        padding: 16px 20px;
+        font-size: 21px;
+    }
+    .down .banner_form .book_form button{
+        margin-left: 23px;
+    }
+    .down .download{
+        margin-left: 4%;
+    }
+    .kolkata p{
+        padding: 5px 0 5px 25px;
+    }
+    .exclusive .slider_sec{
+        margin-left: 10%;
+    }
+    .exclusive .exclusive_content{
+        padding-left: 75px;
+    }
+    .exclusive .exclusive_content p{
+        width: 95%;
+    }
+    .health{
+        margin-top: 80px;
+    }
+    .health .health_slider ul li img{
+        width: 95%;
+    }
+    .con a.google_map{
+        width: 45%;
+    }
+    .con ul li span span.left_con{
+        width: 100px;
+    }
+    .pl-100{
+        padding-left: 50px;
+    }
+    .con ul li span span.right_con{
+        width: 150px;
+    }
+    .con img.la_map{
+        padding-top: 140px;
+    }
+    .rare .rere_content{
+        width: 75%;
+    }
+    .green .green_content{
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    footer .banner_form .book_form a{
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 1299px){
+
+    .banner .banner_cap h1{
+        width: 85%;
+    }
+    .down .download a {
+        padding: 16px 20px;
+        font-size: 20px;
+    }
+    .exclusive .slider_sec .slick-prev{
+        left: 10px;
+        z-index: 1;
+    }
+    .down .banner_form .book_form button{
+        margin-left: 23px;
+    }
+    .down .download{
+        margin-left: 0;
+    }
+    .banner .banner_cap{
+        padding-top: 160px;
+    }
+    .down .banner_form{
+        width: 85%;
+    }
+    .kolkata p{
+        padding: 5px 0 5px 25px;
+    }
+    .exclusive .slider_sec{
+        margin-left: 10%;
+    }
+    .exclusive .exclusive_content{
+        padding-left: 75px;
+    }
+    .exclusive .exclusive_content p{
+        width: 95%;
+    }
+    .health{
+        margin-top: 80px;
+    }
+    .health .health_slider ul li img{
+        width: 95%;
+    }
+    .fac .heding a{
+        padding: 16.5px 35px;
+    }
+    .con a.google_map{
+        width: 45%;
+    }
+    .con ul li span span.left_con{
+        width: 100px;
+    }
+    .pl-100{
+        padding-left: 50px;
+    }
+    .con ul li span span.right_con{
+        width: 145px;
+    }
+    .con img.la_map{
+        padding-top: 140px;
+    }
+    .rare .rere_content{
+        width: 75%;
+    }
+    .green .green_content{
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    footer .banner_form .book_form a{
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 1199px){
+
+    .banner .banner_cap h1{
+        width: 100%;
+        font-size: 55px;
+    }
+
+    .down .banner_form .book_form button{
+        margin-left: 23px;
+    }
+    .down .download{
+        margin-left: 0;
+    }
+    .banner .banner_cap{
+        padding-top: 160px;
+        width: 45%;
+    }
+    .down .banner_form{
+        width: 100%;
+        margin-left: 0;
+    }
+    .down .download a{
+        padding: 16px 17px;
+        font-size: 17px;
+    }
+    .kolkata p{
+        padding: 5px 0 5px 25px;
+    }
+    .exclusive .slider_sec{
+        margin-left: 3%;
+    }
+    .exclusive .slider_sec .slick-prev{
+        left: 10px;
+    }
+    .exclusive .exclusive_content{
+        padding-left: 50px;
+    }
+    .exclusive .exclusive_content h4{
+        font-size: 45px;
+    }
+    .exclusive .exclusive_content p{
+        width: 95%;
+    }
+    .health{
+        margin-top: 50px;
+    }
+    .health h4{
+        font-size: 45px;
+    }
+    .health .health_slider ul li img{
+        width: 95%;
+    }
+    .fac .heding{
+        width: 70%;
+    }
+    .fac .heding a{
+        padding: 16.5px 12px;
+    }
+    .con h4{
+        font-size: 45px;
+    }
+    .con a.google_map{
+        width: 55%;
+    }
+    .con img.border_line.big{
+        width: 245px;
+    }
+    .con ul li span span.left_con{
+        width: 85px;
+    }
+    .fac .heding h4{
+        font-size: 45px;
+    }
+    .pl-100{
+        padding-left: 30px;
+    }
+    .con ul li span span.right_con{
+        width: 100px;
+    }
+    .con img.la_map{
+        padding-top: 140px;
+    }
+    .single_slider{
+        height: auto;
+    }
+    .single_slider img{
+        height: 100%;
+    }
+    .rare{
+        padding: 30px 0 50px 0;
+    }
+    .rare .rere_content{
+        width: 100%;
+    }
+    .rare .rere_content h4{
+        font-size: 45px;
+    }
+    .green .green_content{
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    .green .green_content h4{
+        font-size: 45px;
+        padding-bottom: 15px;
+    }
+    .green .bulding img{
+        width: 100%;
+    }
+    footer .banner_form .book_form a{
+        margin-left: 20px;
+    }
+    footer .banner_form{
+        margin: 0px;
+        width: 100%;
+    }
+    footer .logo_area{
+        width: 90%;
+    }
+    footer .logo_area img{
+        width: 65%;
+    }
+    footer .banner_form .book_form{
+        padding: 30px 10px;
+    }
+    .fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened{
+        width: 700px !important;
+        margin: 0px auto !important;
+    }
+    .fancybox-inner{
+        width: 700px !important;
+        left: -35px;
+    }
+    .banner_form_two .book_form button{
+        margin-left: 50px;
+        left: -30px;
+    }
+    .fancybox-opened .fancybox-skin{
+        left: -55px;
+    }
+    .fancybox-skin{
+        background: none !important;
+        box-shadow: none !important;
+    }
+    .fancybox-close{
+        right: 16px;
+    }
+    
+}
+
+@media (max-width: 991px){
+
+    .banner .banner_cap h1{
+        width: 100%;
+        font-size: 47px;
+    }
+    .down .banner_form .book_form button{
+        margin-left: 23px;
+    }
+    .down .download{
+        margin-left: 0;
+    }
+    .banner .banner_cap{
+        padding-top: 160px;
+        width: 80%;
+    }
+    .down .banner_form{
+        width: 100%;
+        margin-left: 0;
+        top: -243px;
+        right: 4%;
+    }
+    .down .download a{
+        padding: 16px 10px;
+        font-size: 14px;
+        margin-right: 7px;
+    }
+    .kolkata p{
+        padding: 5px 0 5px 25px;
+        font-size: 20px;
+        text-align: left;
+    }
+    .exclusive .slider_sec{
+        margin-left: 3%;
+    }
+    .exclusive .slider_sec .slick-prev{
+        left: 10px;
+    }
+    .exclusive .exclusive_content{
+        padding-left: 20px;
+    }
+    .exclusive .exclusive_content h4{
+        font-size: 40px;
+    }
+    .exclusive .exclusive_content p{
+        width: 95%;
+    }
+    .health{
+        margin-top: 50px;
+    }
+    .health h4{
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+    .health .health_slider ul li img{
+        width: 95%;
+    }
+    .fac .heding{
+        width: 80%;
+    }
+    .fac .heding a{
+        padding: 16.5px 12px;
+    }
+    .con h4{
+        font-size: 40px;
+    }
+    .con a.google_map{
+        width: 75%;
+    }
+    .con img.border_line.big{
+        width: 160px;
+    }
+    .con ul li span span.left_con{
+        width: 80px;
+    }
+    .con ul li span.range{
+        padding-left: 6%;
+    }
+    .con ul li span:last-child span.right_con,span.range_right{
+        display: none;
+    }
+    .con ul li span:last-child span.range_right{
+        display: none;
+    }
+    .fac .heding h4{
+        font-size: 40px;
+    }
+    .pl-100{
+        padding-left: 30px;
+    }
+    .con ul li span span.right_con{
+        width: 100px;
+    }
+    .con img.la_map{
+        padding-top: 140px;
+    }
+    .single_slider{
+        height: auto;
+    }
+    .single_slider img{
+        height: 100%;
+    }
+    .rare{
+        padding: 0px 0 30px 0;
+    }
+    .rare .rere_content{
+        width: 100%;
+    }
+    .rare .rere_content h4{
+        font-size: 40px;
+    }
+    .green .green_content{
+        padding-top: 25px;
+        padding-left: 0px;
+    }
+    .green .green_content h4{
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    .green .green_content p{
+        padding-bottom: 15px;
+    }
+    .green .green_content img{
+        margin-bottom: 15px;
+    }
+    .green .bulding img{
+        width: 100%;
+    }
+    footer .banner_form .book_form a{
+        margin-left: 20px;
+    }
+    footer .banner_form{
+        margin: 0px;
+        width: 100%;
+    }
+    footer .logo_area{
+        width: 90%;
+    }
+    footer .logo_area img{
+        width: 65%;
+    }
+    footer .banner_form .book_form{
+        padding: 30px 0px;
+    }
+    .fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened{
+        width: 700px !important;
+        margin: 0px auto !important;
+    }
+    .fancybox-inner {
+        width: 700px !important;
+        left: 30px;
+    }
+    .banner_form_two .book_form button{
+        margin-left: 17px;
+        left: -30px;
+    }
+    .fancybox-opened .fancybox-skin{
+        left: -55px;
+    }
+    .fancybox-skin{
+        background: none !important;
+        box-shadow: none !important;
+    }
+    .fancybox-close{
+        right: -50px;
+    }
+    .banner_form_two .book_form{
+        padding: 30px 10px;
+    }
+    .banner_form_two .book_form ul li{
+        width: 95%;
+    }
+    
+}
+
+@media (max-width: 767px){
+
+    .logo_bar .logo{
+        width: 35%;
+    }
+    .banner .right_logo{
+        width: 45%;
+    }
+    .banner .banner_cap h1{
+        width: 100%;
+        font-size: 47px;
+    }
+    .down .banner_form .book_form button{
+        margin-left: 23px;
+    }
+    .down .download{
+        margin-left: 0;
+    }
+    .banner .banner_cap{
+        padding-top: 160px;
+        width: 90%;
+    }
+    .down .banner_form{
+        width: 100%;
+        margin-left: 0;
+        top: -243px;
+        right: 4%;
+        display: none;
+    }
+    .down .download a{
+        padding: 16px 20px;
+        font-size: 16px;
+        margin-right: 8px;
+    }
+    .kolkata p{
+        padding: 5px 0 5px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .exclusive{
+        margin-top: 30px;
+    }
+    .exclusive .slider_sec{
+        margin-left: 3%;
+    }
+    .exclusive .slider_sec .slick-prev{
+        left: 10px;
+        display: none;
+    }
+    .exclusive .slider_sec .slick-next{
+        display: none;
+    }
+    .exclusive .exclusive_content{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .exclusive .exclusive_content h4{
+        font-size: 40px;
+    }
+    .exclusive .exclusive_content p{
+        width: 95%;
+    }
+    .health{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .health .health_slider .slick-prev{
+        top: 30%;
+        left: -60px;
+    }
+    .health .health_slider .slick-next{
+        top: 30%;
+    }
+    .health .health_slider ul li span{
+        font-size: 16px;
+    }
+    .health h4{
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+    .health .health_slider ul li img{
+        width: 95%;
+    }
+    .fac .heding{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .fac .heding a{
+        padding: 16.5px 12px;
+    }
+    .fac .fac_content{
+        padding-left: 30px;
+    }
+    .con h4{
+        font-size: 40px;
+    }
+    .con a.google_map{
+        width: 75%;
+    }
+    .con img.border_line.big{
+        width: 160px;
+    }
+    .con ul li span span.left_con{
+        width: 150px;
+    }
+    .con ul li span.range{
+        padding-left: 6%;
+    }
+    .con ul li span:last-child span.right_con,span.range_right{
+        display: block;
+    }
+    .con ul li span:last-child span.range_right{
+        display: block;
+    }
+    .fac .heding h4{
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    .pl-100{
+        padding-left: 0px;
+    }
+    .con ul li span span.right_con{
+        width: 150px;
+    }
+    .con img.la_map{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .single_slider{
+        height: auto;
+    }
+    .single_slider img{
+        height: 100%;
+    }
+    .single_slider ul li p{
+        left: 30%;
+        bottom: 50px;
+    }
+    .rare{
+        padding: 0px 0 30px 0;
+    }
+    .rare .rere_content{
+        width: 100%;
+    }
+    .rare .rere_content h4{
+        font-size: 40px;
+        text-align: left;
+    }
+    .rare .rere_content span{
+        text-align: left;
+    }
+    .rare a{
+        margin-left: 0px;
+    }
+    .green .bulding{
+        padding-top: 30px;
+    }
+    .green .green_content{
+        padding-top: 25px;
+        padding-left: 0px;
+    }
+    .green .green_content h4{
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    .green .green_content p{
+        padding-bottom: 15px;
+    }
+    .green .green_content img{
+        margin-bottom: 15px;
+    }
+    .green .bulding img{
+        width: 100%;
+    }
+    footer{
+        padding: 50px 0;
+    }
+    footer .banner_form .book_form a{
+        margin-left: 20px;
+    }
+    footer .banner_form .book_form ul li{
+        width: 92%;
+    }
+    footer .banner_form{
+        margin: 0px;
+        width: 100%;
+    }
+    footer .logo_area{
+        width: 100%;
+        padding-top: 15px;
+    }
+    footer .logo_area p.market{
+        padding-top: 40px;
+    }
+    footer .logo_area img{
+        width: 65%;
+    }
+    footer .banner_form .book_form{
+        padding: 30px 0px;
+    }
+    .fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened{
+        width: 700px !important;
+        margin: 0px auto !important;
+    }
+    .fancybox-inner{
+        width: 500px !important;
+        left: 11%;
+        right: 0;
+    }
+    .banner_form_two .book_form button{
+        margin-left: 17px;
+        left: -30px;
+    }
+    .fancybox-opened .fancybox-skin{
+        left: -55px;
+    }
+    .fancybox-skin{
+        background: none !important;
+        box-shadow: none !important;
+    }
+    .fancybox-close{
+        right: 110px;
+    }
+    .banner_form_two .book_form{
+        padding: 30px 10px;
+    }
+    .banner_form_two .book_form ul li{
+        width: 95%;
+    }
+    
+}
+
+@media (max-width: 575px){
+
+    .logo_bar .logo{
+        width: 35%;
+    }
+    .banner .right_logo{
+        width: 55%;
+    }
+    .banner .banner_cap h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    .down .banner_form .book_form button{
+        margin-left: 23px;
+    }
+    .down .download{
+        margin-left: 0;
+    }
+    .banner .banner_cap{
+        padding-top: 160px;
+        width: 90%;
+    }
+    .down .banner_form{
+        width: 100%;
+        margin-left: 0;
+        top: -243px;
+        right: 4%;
+        display: none;
+    }
+    .down .download a{
+        padding: 16px 16px;
+        font-size: 13px;
+        margin-right: 8px;
+    }
+    .down .download:last-child a{
+        margin-right: 0px;
+    }
+    .kolkata p{
+        padding: 5px 0 5px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .exclusive{
+        margin-top: 30px;
+    }
+    .exclusive .slider_sec{
+        margin-left: 3%;
+    }
+    .exclusive .slider_sec .slick-prev{
+        left: 10px;
+        display: none !important;
+    }
+    .exclusive .slider_sec .slick-next{
+        display: none !important;
+    }
+    .exclusive .exclusive_content{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .exclusive .exclusive_content h4{
+        font-size: 30px;
+    }
+    .exclusive .exclusive_content p{
+        width: 95%;
+    }
+    .health{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .health .health_slider .slick-prev{
+        top: 30%;
+        left: -60px;
+        display: none !important;
+    }
+    .health .health_slider .slick-next{
+        top: 30%;
+        display: none !important;
+    }
+    .health .health_slider ul li span{
+        font-size: 16px;
+    }
+    .health h4{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .health .health_slider ul li img{
+        width: 97%;
+    }
+    .fac .heding{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .fac .heding a{
+        padding: 16.5px 12px;
+    }
+    .fac .fac_content{
+        padding-left: 0px;
+    }
+    .con h4{
+        font-size: 30px;
+    }
+    .con a.google_map{
+        width: 75%;
+    }
+    .con img.border_line.big{
+        width: 160px;
+    }
+    .con ul li span span.left_con{
+        width: 150px;
+    }
+    .con ul li span.range{
+        padding-left: 6%;
+    }
+    .con ul li span:last-child span.right_con,span.range_right{
+        display: block;
+    }
+    .con ul li span:last-child span.range_right{
+        display: block;
+    }
+    .fac .heding h4{
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .pl-100{
+        padding-left: 15px;
+    }
+    .con ul li span span.right_con{
+        width: 150px;
+    }
+    .con img.la_map{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .single_slider{
+        height: auto;
+    }
+    .single_slider img{
+        height: 100%;
+    }
+    .single_slider ul li p{
+        left: 20%;
+        bottom: 50px;
+    }
+    .single_slider .slick-prev{
+        display: none !important;
+    }
+    .single_slider .slick-next{
+        display: none !important;
+    }
+    .rare{
+        padding: 0px 0 30px 0;
+    }
+    .rare .rere_content{
+        width: 100%;
+    }
+    .rare .rere_content h4{
+        font-size: 30px;
+        text-align: left;
+    }
+    .rare .rere_content span{
+        text-align: left;
+    }
+    .rare a{
+        margin-left: 0px;
+    }
+    .green .bulding{
+        padding-top: 30px;
+    }
+    .green .green_content{
+        padding-top: 25px;
+        padding-left: 0px;
+    }
+    .green .green_content h4{
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+    .green .green_content p{
+        padding-bottom: 15px;
+    }
+    .green .green_content img{
+        margin-bottom: 15px;
+    }
+    .green .bulding img{
+        width: 100%;
+    }
+    footer{
+        padding: 50px 0;
+    }
+    footer .banner_form .book_form a{
+        margin-left: 13px;
+    }
+    footer .banner_form .book_form ul li{
+        width: 92%;
+    }
+    footer .banner_form{
+        margin: 0px;
+        width: 100%;
+    }
+    footer .logo_area{
+        width: 100%;
+        padding-top: 15px;
+    }
+    footer .logo_area p.market{
+        padding-top: 40px;
+    }
+    footer .logo_area img{
+        width: 65%;
+    }
+    footer .banner_form .book_form{
+        padding: 30px 0px;
+    }
+    .fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened{
+        width: 350px !important;
+        margin: 0px auto !important;
+    }
+    .fancybox-inner{
+        width: 350px !important;
+        left: 30px;
+    }
+    .banner_form_two .book_form button{
+        margin-left: 17px;
+        left: -30px;
+    }
+    .fancybox-opened .fancybox-skin{
+        left: -55px;
+    }
+    .fancybox-skin{
+        background: none !important;
+        box-shadow: none !important;
+    }
+    .fancybox-close{
+        right: -45px;
+    }
+    .banner_form_two .book_form{
+        padding: 30px 10px;
+    }
+    .banner_form_two .book_form ul li{
+        width: 95%;
+    }
+    
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+

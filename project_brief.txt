@@ -1,0 +1,60 @@
+1. BG Group Logo on the left side , La Convent Logo on the right side
+
+2. BG Group logo should be clickable, it will be linked to BG group homepage
+
+3. Basic Banner
+
+4. Existing form will be there but it will be a little bigger.
+
+5. Download Brochure 
+a. When a user clicks on this a pop up form will open
+b.After filling and submitting the form, brochure will be downloaded.
+
+6. Book an Appointment
+a.When a user clicks on it a pop up form will open.
+
+7. Exclusive Home - a.Image will slide, b.Book a site visit - Pop up form will open
+
+8. Available bank section will be removed.
+
+9. Health and Happiness Reside Here - Image will slide, more images with name will be provided by you.
+
+10. Facilities - Request a Call Back -Pop up form will open
+
+11. Convenience - a. current Map will be there b.Book a site visit -- Pop up form will open
+
+12. Swimming pool section- image will slide (more images will be given  by you)
+
+13. Rare features - Book a visit - Pop up form will open
+
+14. Green building Certificate - Know more should be removed.
+
+15. Footer- a. Below BG group logo - Address, phn no., Email will be there.
+                  b.Right side Marketing partner logos
+                  c.Below this " Bank loan available from all leading banks"
+
+
+
+
+<div id="popup" style="display: none;" class="popup_form">
+                            <div class="banner_form">
+                                <div class="book_form">
+                                    <form>
+                                    <ul>
+                                        <li>
+                                            <input type="text" placeholder="NAME">
+                                        </li>
+                                        <li>
+                                            <input type="email" placeholder="EMAIL ID">
+                                        </li>
+                                        <li>
+                                            <input type="text" placeholder="PHONE">
+                                        </li>
+                                    </ul>
+                                    <button type="submit" value="submit">submit</button>
+                                    </form>
+                                    </div>
+                        </div>
+                        </div>
+fancybox
+popup_all

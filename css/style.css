@@ -1,0 +1,1374 @@
+/*
+::-moz-selection {
+	background:rgba(0,0,0,0);
+	}
+::selection { 
+	background:rgba(0,0,0,0);
+	} 	
+*/
+html{
+    scroll-behavior: smooth;
+}
+	
+body {
+	margin: 0;
+	padding: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaBold.woff2') format('woff2'),
+        url('../fonts/NexaBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaLight.woff2') format('woff2'),
+        url('../fonts/NexaLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DINPro';
+    src: url('../fonts/DINPro-Bold.woff2') format('woff2'),
+        url('../fonts/DINPro-Bold.woff') format('woff'),
+        url('../fonts/DINPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('../fonts/BaronNeue.woff2') format('woff2'),
+        url('../fonts/BaronNeue.woff') format('woff'),
+        url('../fonts/BaronNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kate Med';
+    src: url('../fonts/Kate-Medium.woff2') format('woff2'),
+        url('../fonts/Kate-Medium.woff') format('woff'),
+        url('../fonts/Kate-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+img, a {
+	border: none;
+	outline: none;
+}
+a {
+	text-decoration: none !important;
+    cursor: pointer !important;
+}
+ul{
+    margin-bottom: 0px !important;
+}
+ul, li {
+	list-style: none;
+}
+input, textarea, select {
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px !important;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0px auto;
+	position: relative;
+}
+@media (max-width: 575px){
+    .container{
+        max-width: 100% !important;
+    }
+}
+@media (min-width: 576px){
+    .container{
+        max-width: 540px !important;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 720px !important;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        max-width: 960px !important;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1140px !important;
+    }
+}
+@media (min-width: 1300px){
+    .container{
+        max-width: 1170px !important;
+    }
+}
+@media (min-width: 1400px){
+    .container{
+        max-width: 1300px !important;
+    }
+}
+@media (min-width: 1600px){
+    .container{
+        max-width: 1550px !important;
+    }
+}
+
+.container:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+
+/***********************
+    logo_bar Sec Start
+***********************/
+
+.outer {
+    background-image: url(../images/top_banner_bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-bottom: 65px;
+    background-size: contain;
+}
+
+.logo_bar{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.logo_bar .logo{
+    width: 10%;
+}
+.logo_bar .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/***********************
+    logo_bar Sec End
+***********************/
+
+/***********************
+    Banner Sec Start
+***********************/
+
+.banner{
+    width: 100%;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner .right_logo {
+    overflow: hidden;
+    position: absolute;
+    top: -45px;
+    right: 0;
+    width: 32%;
+}
+.banner .right_logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner .banner_cap {
+    padding-top: 215px;
+    width: 32%;
+    margin-left: auto;
+}
+.banner .banner_cap h1 {
+    font-size: 60px;
+    color: #c5ab80;
+    width: 72%;
+    font-family: 'Nexa';
+    font-weight: bold;
+    text-align: left;
+}
+.banner .banner_cap h6{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Nexa';
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: 300;
+    padding-bottom: 230px;
+}
+.kolkata{
+    background-color: #c5ab80;
+    width: 100%;
+    overflow: hidden;
+}
+.kolkata p{
+    font-size: 30px;
+    color: #1e4876;
+    font-family: 'Nexa';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 5px 0 5px 155px;
+}
+.down{
+    margin-top: 27px;
+    height: 66px;
+}
+.down .download{
+    overflow: hidden;
+    margin-left: 17%;
+}
+.down .download a{
+    background-color: #58595b;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nexa';
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 16px 33px;
+    margin-right: 15px;
+    display: inline-flex;
+}
+.down .download a:last-child{
+    margin-right: 0px;
+}
+.down .download a:hover{
+    background-color: #c5ab80;
+    transition: 0.5s;
+}
+.down .banner_form {
+    position: relative;
+    overflow: hidden;
+    width: 68%;
+    margin-left: auto;
+    right: 11%;
+    top: -230px;
+}
+.down .banner_form .book {
+    background-color: #c5ab80;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.down .banner_form .book span{
+    text-align: center;
+    text-transform: capitalize;
+    color: #1e4876;
+    font-family: 'Nexa';
+    font-weight: 600;
+    padding: 3px 0;
+}
+.down .banner_form .book_form{
+    margin-top: 15px;
+    background-color: #d4d5d6;
+    padding: 15px 10px;
+}
+.down .banner_form .book_form ul li{
+    width: 85%;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+.down .banner_form .book_form ul li input[type=text]{
+    font-size: 16px;
+    color: #111;
+    font-weight: 600;
+    font-family: 'Nexa';
+    outline: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+.down .banner_form .book_form ul li input[type="email"]{
+    font-size: 16px;
+    color: #58595b;
+    font-weight: 600;
+    font-family: 'Nexa';
+    outline: none;
+    padding: 10px 20px;
+    border: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+.down .banner_form .book_form ul li input::placeholder{
+    color: #58595b;
+}
+.down .banner_form .book_form button {
+    background-color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nexa';
+    text-transform: uppercase;
+    color: #1e4876;
+    margin-left: 30px;
+    outline: none;
+    border: 0px;
+}
+.down .banner_form .book_form button:hover{
+    background-color: #1e4876;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/***********************
+    Banner Sec End
+***********************/
+
+/********************************
+    Exclusive homes Sec Start
+********************************/
+
+    .exclusive{
+        overflow: hidden;
+        background-color: #e7e1d6;
+        padding: 50px 0 40px 0;
+    }
+    .exclusive .slider_sec{
+        width: 100%;
+        margin-left: 17%;
+    }
+    .exclusive .slider_sec .slick-prev {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        left: -75px;
+        display: block;
+        padding: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+        margin-top: 0px !important;
+        background-image: url(../images/slider_prev.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        width: 45px;
+        height: 46px;
+    }
+    .exclusive .slider_sec .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        padding: 0px !important;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none !important;
+        outline: none;
+        background: transparent;
+        margin-top: 0px !important;
+        background-image: url(../images/slider_next.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        width: 45px;
+        height: 46px;
+        outline: none;
+        z-index: 1;
+        right: 50px;
+    }
+    .exclusive .slider_sec .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+        outline: none;
+        border: none !important;
+    }
+    .exclusive .slider_sec .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before{
+        content: "";
+    }
+    .exclusive .slider_sec .slick-next:before {
+        content: "";
+    }
+    .exclusive .slider_sec .slick-prev:before {
+        content: "";
+    }
+    .exclusive .exclusive_content{
+        padding-left: 120px;
+    }
+    .exclusive .exclusive_content h4{
+        font-size: 60px;
+        color: #c5ab80;
+        font-family: 'Nexa';
+        font-weight: bold;
+    }
+    .exclusive .exclusive_content span{
+        font-size: 16px;
+        color: #404041;
+        font-weight: 300;
+        font-family: 'Nexa';
+        letter-spacing: 4px;
+        padding-bottom: 13px;
+        text-transform: uppercase;
+        display: block;
+    }
+    .exclusive .exclusive_content p{
+        font-size: 16px;
+        font-weight: 300;
+        color: #58595b;
+        font-family: 'Nexa';
+        padding-bottom: 18px;
+        width: 69%;
+    }
+    .exclusive .exclusive_content ul li{
+        margin-bottom: 10px;
+        font-family: 'Nexa';
+        font-weight: bold;
+        font-size: 16px;
+        color: #1e4876;
+    }
+    .exclusive .exclusive_content ul li:last-child{
+        padding-bottom: 40px;
+    }
+    .exclusive .exclusive_content a{
+        font-size: 16px;
+        color: #fff;
+        font-family: 'Nexa';
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 18.5px 67px;
+        background-color: #58595b;
+        letter-spacing: 2px;
+
+    }
+    .exclusive .exclusive_content a:hover{
+        background-color: #1e4876;
+        transition: 0.5s;
+    }
+
+/********************************
+    Exclusive homes Sec End
+********************************/
+
+/************************************
+    Health & Happiness  Sec Start
+*************************************/
+
+.health{
+    overflow: hidden;
+    margin-top: 95px;
+    padding-bottom: 55px;
+    background-color: #fcfcfc;
+}
+.health h4{
+    font-size: 60px;
+    color: #58595b;
+    text-transform: capitalize;
+    font-family: 'Nexa';
+    font-weight: 300;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.health .health_slider{
+    margin: 0px auto;
+    width: 85%;
+}
+.health .health_slider ul li{
+    width: 27%;
+}
+.health .health_slider ul li span{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-family: 'Nexa';
+    font-weight: bold;
+    color: #58595b;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.health .health_slider ul li img{
+    width: 98%;
+}
+.health .health_slider .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    left: -75px;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-top: 0px !important;
+    background-image: url(../images/slider_prev.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    width: 45px;
+    height: 46px;
+}
+.health .health_slider .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    padding: 0px !important;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none !important;
+    outline: none;
+    background: transparent;
+    margin-top: 0px !important;
+    background-image: url(../images/slider_next.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    width: 45px;
+    height: 46px;
+    outline: none;
+    z-index: 1;
+    right: -60px;
+}
+.health .health_slider .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    outline: none;
+    border: none !important;
+}
+.health .health_slider .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before{
+    content: "";
+}
+.health .health_slider .slick-next:before {
+    content: "";
+}
+.health .health_slider .slick-prev:before {
+    content: '';
+}
+
+/************************************
+    Health & Happiness  Sec End
+*************************************/
+
+/************************************
+    Facilities  Sec Start
+*************************************/
+
+.fac{
+    overflow: hidden;
+    background-image: url(../images/Facilities_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    padding: 80px 0;
+}
+.fac .heding{
+    margin-left: auto;
+    width: 55%;
+}
+.fac .heding h4{
+    padding-top: 70px;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Nexa';
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.fac .heding a {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Nexa';
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16.5px 47px;
+    background-color: #1e4876;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    display: inline-flex;
+}
+.fac .heding a:hover{
+    color: #fff;
+}
+.fac .fac_content{
+    overflow: hidden;
+    padding-left: 30px;
+}
+.fac .fac_content ul li{
+    margin-bottom: 20px;
+    font-family: 'Nexa';
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.fac .fac_content ul li img{
+    width: 59px;
+    height: 2px;
+}
+
+/************************************
+    Facilities  Sec End
+*************************************/
+
+/************************************
+    Convenience  Sec Start
+*************************************/
+
+.con{
+    overflow: hidden;
+    background-color: #e7e1d6;
+    padding: 35px 0 75px 0;
+}
+.con img.la_map{
+    width: 100%;
+    padding-top: 160px;
+}
+.con a.google_map{
+    margin-top: 15px;
+    background-color: #58595b;
+    color: #fff;
+    text-align: center;
+    margin: 0px auto;
+    padding: 6px;
+    width: 33.5%;
+    font-size: 16px;
+    font-family: 'Nexa';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.con a.google_map:hover{
+    background-color: #c5ab80;
+    transition: 0.5s;
+}
+.con h4{
+    padding-top: 34px;
+    font-size: 60px;
+    font-family: 'Nexa';
+    font-weight: bold;
+    color: #c5ab80;
+    padding-bottom: 10px;
+}
+.con span{
+    display: block;
+    font-size: 16px;
+    font-family: 'Nexa';
+    font-weight: 300;
+    padding-bottom: 20px;
+    color: #58595b;
+}
+.con p{
+    font-size: 16px;
+    font-family: 'Nexa';
+    font-weight: 300;
+    padding-bottom: 20px;
+    margin-bottom: 5px !important;
+    color: #58595b;
+    display: flex;
+    flex-direction: column;
+}
+.con img.border_line{
+    width: 167px;
+    height: 2px;
+    margin-top: 15px;
+}
+.con p.bold_head{
+    font-family: 'Nexa';
+    font-weight: bold;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+.con img.border_line.big{
+    padding-left: 15px;
+    width: 335px;
+}
+
+.con ul li{
+    width: 49%;
+    float: left;
+}
+.con ul li:last-child{
+    padding-left: 30px;
+}
+.con ul li h6{
+    font-size: 18px;
+    color: #c5ab80;
+    font-family: 'Nexa';
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.con ul li span{
+    padding-bottom: 5px;
+    display: flex;
+    font-size: 16px;
+    color: #58595b;
+    font-family: 'Nexa';
+    font-weight: 300;
+}
+.con ul li span span.left_con{
+    width: 175px;
+}
+.con ul li span span.right_con{
+    width: 220px;
+}
+.con ul li span.range{
+    padding-left: 25%;
+    display: inline;
+}
+.con ul li span.range_right{
+    overflow: hidden;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.pl-100{
+    padding-left: 100px;
+}
+.con a.visit {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Nexa';
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16.5px 68px;
+    background-color: #58595b;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    display: inline-flex;
+}
+.con a.visit:hover{
+    background-color: #1e4876;
+    transition: 0.5s;
+}
+
+/************************************
+    Convenience  Sec End
+*************************************/
+
+/************************************
+    single slider Sec Start
+*************************************/
+
+.single_slider{
+    overflow: hidden;
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+.single_slider img{
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+.single_slider ul li p{
+    position: relative;
+    left: 40%;
+    bottom: 100px;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Nexa';
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.single_slider .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    left: 75px;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-top: 0px !important;
+    background-image: url(../images/slider_prev_white.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    width: 45px;
+    height: 46px;
+    z-index: 1;
+}
+.single_slider .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    padding: 0px !important;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none !important;
+    outline: none;
+    background: transparent;
+    margin-top: 0px !important;
+    background-image: url(../images/slider_next_white.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    width: 45px;
+    height: 46px;
+    outline: none;
+    z-index: 1;
+    right: 75px;
+}
+.single_slider .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    outline: none;
+    border: none !important;
+}
+.single_slider .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before{
+    content: "";
+}
+.single_slider .slick-next:before {
+    content: "";
+}
+.single_slider .slick-prev:before {
+    content: '';
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: #fff;
+    outline: none;
+    
+}
+
+/************************************
+    single slider Sec End
+*************************************/
+
+/************************************
+    Rare Sec Start
+*************************************/
+
+.rare{
+    overflow: hidden;
+    padding: 52px 0;
+}
+.rare .rere_content{
+    overflow: hidden;
+    margin-left: auto;
+    width: 60%;
+}
+.rare .rere_content h4{
+    font-size: 60px;
+    color: #c5ab80;
+    font-family: 'Nexa';
+    font-weight: bold;
+    text-align: right;
+}
+.rare .rere_content span{
+    text-align: right;
+    font-size: 16px;
+    color: #58595b;
+    font-family: 'Nexa';
+    font-weight: 300;
+    display: block;
+}
+.rare a {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Nexa';
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16.5px 55px;
+    background-color: #1e4876;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    display: inline-flex;
+    margin-left: 50px;
+}
+.rare a:hover{
+    color: #fff;
+    background-color: #c5ab80;
+    transition: 0.5s;
+}
+
+/************************************
+    Rare Sec End
+*************************************/
+
+/************************************
+    Green Sec Start
+*************************************/
+
+.green{
+    overflow: hidden;
+    background-color: #e7e1d6;
+}
+.green .bulding{
+    overflow: hidden;
+}
+.green .bulding img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+.green .green_content{
+    padding-left: 60px;
+    padding-top: 130px;
+}
+.green .green_content img{
+    width: 20%;
+    margin-bottom: 30px;
+}
+.green .green_content h4{
+    font-size: 60px;
+    font-family: 'Nexa';
+    font-weight: bold;
+    color: #c5ab80;
+    padding-bottom: 30px;
+}
+.green .green_content p{
+    font-size: 16px;
+    font-family: 'Nexa';
+    font-weight: 300;
+    color: #58595b;
+}
+
+/************************************
+    Green Sec End
+*************************************/
+
+/************************************
+    Footer Sec Start
+*************************************/
+
+footer{
+    background-color: #1e4876;
+    padding: 70px 0 85px 0;
+}
+footer .banner_form {
+    position: relative;
+    overflow: hidden;
+    width: 85%;
+    margin: 0px auto;
+}
+footer .banner_form .book {
+    background-color: #c5ab80;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+footer .banner_form .book span{
+    text-align: center;
+    text-transform: capitalize;
+    color: #1e4876;
+    font-family: 'Nexa';
+    font-weight: 600;
+    padding: 3px 0;
+}
+footer .banner_form .book_form{
+    margin-top: 15px;
+    background-color: #d4d5d6;
+    padding: 15px 10px;
+}
+footer .banner_form .book_form ul li{
+    width: 85%;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+footer .banner_form .book_form ul li input[type=text]{
+    font-size: 16px;
+    color: #58595b;
+    font-weight: 600;
+    font-family: 'Nexa';
+    outline: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+footer .banner_form .book_form ul li input[type=email]{
+    font-size: 16px;
+    color: #58595b;
+    font-weight: 600;
+    font-family: 'Nexa';
+    outline: none;
+    padding: 10px 20px;
+    border: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+footer .banner_form .book_form ul li input::placeholder{
+    color: #58595b;
+}
+footer .banner_form .book_form button {
+    background-color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Nexa';
+    text-transform: uppercase;
+    color: #1e4876;
+    margin-left: 30px;
+    outline: none;
+    border: 0px;
+}
+footer .banner_form .book_form button:hover{
+    background-color: #1e4876;
+    color: #fff;
+    transition: 0.5s;
+}
+footer .logo_area{
+    margin-left: auto;
+    width: 70%;
+}
+footer .logo_area img{
+    margin-bottom: 15px;
+    width: 40%;
+}
+footer .logo_area p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Nexa';
+    padding-bottom: 10px;
+    color: #fff;
+}
+footer .logo_area p span{
+    text-transform: uppercase;
+    display: block;
+    color: #c4aa80;
+}
+footer .logo_area p.market{
+    padding-top: 130px;
+}
+footer .copyright{
+    overflow: hidden;
+}
+footer .copyright p{
+    font-weight: 300;
+    font-family: 'Nexa';
+    font-size: 16px;
+    padding: 50px 0;
+    color: #fff;
+}
+footer .sec_con{
+    overflow: hidden;
+    padding: 50px 0;
+}
+footer .sec_con a.nav_footer{
+    font-size: 15px;
+    font-family: 'Nexa';
+    font-weight: bold;
+    color: #fff;
+    text-align: right;
+}
+footer .sec_con a{
+    text-align: right;
+}
+footer .sec_con a {
+    text-align: right;
+    width: 50%;
+    float: left;
+    color: #fff;
+}
+footer .sec_con a:hover{
+    color: #c5ab80;
+    transition: 0.5s;
+}
+
+/************************************
+    Footer Sec End
+*************************************/
+
+/***********************************
+    Product POP UP sec start
+***********************************/
+
+.popup_form{
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    display: none;
+}
+/*.fancybox-opened{
+    width: 33% !important;
+}
+.fancybox-inner{
+    width: 100% !important;
+}*/
+
+ .fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened{
+	width: 550px !important;
+    height: auto;
+    position: absolute;
+    top: 112px;
+    left: 0;
+    opacity: 1;
+    overflow: visible;
+    right: 0;
+    margin: 0;
+    
+}
+
+ .fancybox-inner {
+    width: 550px !important;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border: 2px solid #c5ab80 !important;
+    border-radius: 5px;
+}
+.banner_form_two{
+    overflow: hidden;
+}
+.banner_form_two .book_form{
+    background-color: #fff;
+    padding: 30px 30px;
+}
+.banner_form_two .book_form h6 {
+    font-size: 20px;
+    color: #c4aa80;
+    font-weight: 600;
+    font-family: 'Nexa';
+    padding-bottom: 20px;
+    padding-left: 35px;
+    text-transform: capitalize;
+}
+.banner_form_two .book_form ul li{
+    width: 85%;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+.banner_form_two .book_form ul li input[type=text]{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Nexa';
+    outline: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border: 0px;
+    width: 100%;
+    background-color: #c5ab80;
+}
+.banner_form_two .book_form ul li input[type=email]{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Nexa';
+    outline: none;
+    padding: 10px 20px;
+    border: 0px;
+    width: 100%;
+    background-color: #c5ab80;
+}
+.banner_form_two .book_form ul li input::placeholder{
+    color: #fff;
+}
+.banner_form_two .book_form button {
+    background-color: #c5ab80;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Nexa';
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 37px;
+    outline: none;
+    border: 0px;
+}
+.banner_form_two .book_form button:hover{
+    background-color: #1e4876;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+/***********************************
+    Product POP UP sec End
+***********************************/
+
+
+/***************************
+    Thank Yoy start
+***************************/
+
+.thank_you{
+    overflow: hidden;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    height: 400px;
+    text-align: center;
+    
+}
+.iconn.user{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    padding-right: 0px;
+}
+.iconn.user img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+.top_yellow .right_login ul li a.user_name{
+    font-size: 15px;
+    color: #263b93;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.thank_you .center_thankyou{
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 15px;
+    border-radius: 5px;
+    
+}
+.thank_you .center_thankyou img{
+    padding-bottom: 10px;
+    width: auto;
+}
+.thank_you .center_thankyou h2 {
+    color: #c5ab80;
+    font-size: 24px !important;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin: 0px auto !important;
+    width: 70%;
+    line-height: 36px;
+    font-family: 'Nexa';
+    font-weight: bold;
+}
+
+
+/***************************
+    Thank Yoy end
+***************************/
+
+/*******************************
+    Privacy Policy Sec Start
+/******************************/
+
+.privacy{
+    overflow: hidden;
+    background-image: url(../images/privacy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    height: auto;
+}
+.privacy h6{
+    font-size: 60px;
+    font-family: 'Nexa';
+    font-weight: bold;
+    padding: 180px 0 180px 50px;
+    color: #fff;
+}
+.privacy_content{
+    overflow: hidden;
+    padding: 50px 0;
+}
+.privacy_content h6{
+    font-weight: bold;
+    font-family: 'Nexa';
+    font-size: 30px;
+    color: #c5ab80;
+    padding-bottom: 15px;
+}
+.privacy_content:last-child h6{
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+.privacy_content p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nexa';
+    color: #58595b;
+    padding-bottom: 15px;
+    width: 90%;
+    line-height: 32px;
+}
+.privacy_content p a{
+    color: #c5ab80;
+    font-weight: bold;
+}
+
+/*******************************
+    Privacy Policy Sec End
+/*******************************/
+
+/*****************************
+    Scroll to top css start
+*****************************/
+
+.scrollTop {
+	position: fixed;
+	right: 2%;
+	bottom: 10px;
+	padding: 0px;
+	opacity: 0;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+/*****************************
+    Scroll to top css end
+*****************************/
+
+
+
+
